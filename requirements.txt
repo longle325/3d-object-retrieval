@@ -1,0 +1,12 @@
+torch==2.6.0+cu124
+open_clip_torch==2.30.0            
+pillow==11.2.1                    
+pymilvus==2.5.7                   
+numpy==2.2.5                      
+tqdm==4.67.1                      
+transformers==4.51.3              
+sentence-transformers==4.1.0      
+trimesh==4.6.8                    
+pyrender==0.1.45                 
+imageio==2.37.0                  
+bpy==4.4.0                        

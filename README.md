@@ -205,7 +205,7 @@ In the final leaderboard of the challenge, our team secured **1st place** out of
 - **R@10 (Recall@10):** 1.00  
 - **MRR (Mean Reciprocal Rank):** 0.97 
 
-[Leaderboard image](https://lh4.googleusercontent.com/83cQKw2y9lJLKGoOnEIVeG5OI8lFBNc3k9rbiMvEFaCqf2cew1mhP8E-ErFVjn-HUfZu9XFEBb91uHBvTI0FqFJJLEOCH15ZBoZanwsbZ3Unwz-kd0Afc45n5aa0lfyPFA=w1280)
+[Leaderboard image](https://i.pinimg.com/736x/17/16/97/1716978c47c09f4a225c34f1c6339a26.jpg)
 
 ---
 

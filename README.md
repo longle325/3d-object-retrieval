@@ -71,9 +71,9 @@ flowchart LR
     A["3D Models"] --> B["Convert OBJ to GLB"]
     B --> C["Render 20 Views"]
     C --> D["Embed with SIGLIP"]
-    D --|"Stage 1"| E["Milvus Search"]
+    D -- "Stage 1" --> E["Milvus Search"]
     E --> F["Generate Captions (BLIP-2)"]
-    F --|"Stage 2"| G["Rerank with BGE-M3"]
+    F -- "Stage 2" --> G["Rerank with BGE-M3"]
     G --> H["Final Results"]
 ```
 

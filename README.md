@@ -1,4 +1,4 @@
-# 3D Object Retrieval Pipeline for ROOMELSA Challenge
+# 3D Object Retrieval Pipeline for ROOMELSA Grand Challenge 2025
 
 [![ROOMELSA Grand Challenge](https://img.shields.io/badge/SHREC-2025-blue)](https://aichallenge.hcmus.edu.vn/shrec-2025/smart3droom)
 

@@ -68,7 +68,7 @@ A high-level view of the ROOMELSA two-stage retrieval pipeline:
 
 ```mermaid
 flowchart LR
-    A["3D Models"] --> B["Convert OBJ to GLB"]
+    A["3D Objects"] --> B["Convert OBJ to GLB"]
     B --> C["Render 20 Views"]
     C --> D["Embed with SIGLIP"]
     D -- "Stage 1" --> E["Milvus Search"]

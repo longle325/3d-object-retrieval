@@ -180,7 +180,7 @@ python scripts/embed_2d_imgs.py \
 ```bash
 python scripts/infer_with_caption_n_rerank.py \
   --query_path /path/to/queries.json \
-  --collection_name roomelsa_collection \
+  --collection_name your_milvus_collection \
   --output_csv_path /path/to/results.csv \
   --visualize_path /path/to/visualizations \
   --ckpt_path /path/to/best/fine_tuned_blip2
@@ -191,7 +191,7 @@ For Stage 1 only (no reranking):
 ```bash
 python scripts/infer_without_caption_n_rerank.py \
   --query_path /path/to/queries.json \
-  --collection_name roomelsa_collection \
+  --collection_name your_milvus_collection \
   --output_csv_path /path/to/fast_results.csv
 ```
 

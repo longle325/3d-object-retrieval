@@ -64,7 +64,7 @@
 
 ## 🚀 Pipeline Overview
 
-A high-level view of the ROOMELSA two-stage retrieval pipeline:
+A high-level view of the two-stage retrieval pipeline for 3D objects:
 
 ![Pipeline image](pipeline_fig.png)
 

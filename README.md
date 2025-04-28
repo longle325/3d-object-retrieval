@@ -66,7 +66,7 @@
 
 A high-level view of the ROOMELSA two-stage retrieval pipeline:
 
-![Pipeline image](https://drive.google.com/file/d/1MXGKE4STiCHEaIG_TNUNZsw2o3xvinv8/view?usp=sharing)
+![Pipeline image](https://drive.google.com/file/d/1MXGKE4STiCHEaIG_TNUNZsw2o3xvinv8)
 
 ### 1. 3D Model Rendering
 

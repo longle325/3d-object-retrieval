@@ -66,16 +66,7 @@
 
 A high-level view of the ROOMELSA two-stage retrieval pipeline:
 
-```mermaid
-flowchart LR
-    A["3D Objects"] --> B["Convert OBJ to GLB"]
-    B --> C["Render 20 Views"]
-    C --> D["Embed with SIGLIP"]
-    D -- "Stage 1" --> E["Milvus Search"]
-    E --> F["Generate Captions (BLIP-2)"]
-    F -- "Stage 2" --> G["Rerank with BGE-M3"]
-    G --> H["Final Results"]
-```
+![Pipeline image](https://drive.google.com/file/d/1MXGKE4STiCHEaIG_TNUNZsw2o3xvinv8/view?usp=sharing)
 
 ### 1. 3D Model Rendering
 
@@ -91,6 +82,7 @@ flowchart LR
 
 - **Model**: Fine-tuned BLIP-2 (Flan-T5-xl)
 - **Training**:
+  - Epochs: 20   
   - Batch size: 32
   - Learning rate: 2e-5
   - Weight decay: 0.01

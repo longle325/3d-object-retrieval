@@ -124,11 +124,11 @@ A high-level view of the two-stage retrieval pipeline for 3D objects:
 ### Data Preparation
 
 ```bash
-python scripts/convert_file_obj_to_glb.py \
+python convert_file_obj_to_glb.py \
   --root_dir /path/to/obj_files \
   --output_dir /path/to/glb_files
 
-python scripts/convert_glb_to_2d_imgs.py \
+python convert_glb_to_2d_imgs.py \
   --root_dir /path/to/glb_files \
   --output_dir /path/to/rendered_images
 ```
@@ -136,7 +136,7 @@ python scripts/convert_glb_to_2d_imgs.py \
 ### Generating Embeddings
 
 ```bash
-python scripts/embed_2d_imgs.py \
+python embed_2d_imgs.py \
   --root_dir /path/to/rendered_images \
   --collection_name your_milvus_collection
 ```
@@ -145,14 +145,14 @@ python scripts/embed_2d_imgs.py \
 
 1. **Make Dataset**:
    ```bash
-   python scripts/make_dataset_for_blip.py \
+   python make_dataset_for_blip.py \
      --src_root /path/to/public_data \
      --dst_root /path/to/training_data
    ```
 
 2. **Train**:
    ```bash
-   python scripts/train_blip.py \
+   python train_blip.py \
      --data_dir /path/to/training_data \
      --output_dir /path/to/output \
      --checkpoint_dir /path/to/checkpoints
@@ -170,7 +170,7 @@ python scripts/embed_2d_imgs.py \
 ### Inference
 
 ```bash
-python scripts/infer_with_caption_n_rerank.py \
+python infer_with_caption_n_rerank.py \
   --query_path /path/to/queries.json \
   --collection_name your_milvus_collection \
   --output_csv_path /path/to/results.csv \
@@ -181,7 +181,7 @@ python scripts/infer_with_caption_n_rerank.py \
 For Stage 1 only (no reranking):
 
 ```bash
-python scripts/infer_without_caption_n_rerank.py \
+python infer_without_caption_n_rerank.py \
   --query_path /path/to/queries.json \
   --collection_name your_milvus_collection \
   --output_csv_path /path/to/fast_results.csv
